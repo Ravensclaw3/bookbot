@@ -1,2 +1,1 @@
-# bookbot
-Boot.Dev Python based bookbot
+BookBot is my first project!
