@@ -1,10 +1,14 @@
+def getFileContent(location):
+    with open(location) as f:
+        return f.read()
+
 def strCount(input):
     words = input.split()
     return len(words)
 
 def main():
-    with open("books/frankenstein.txt") as f:
-        file_contents = f.read()
+    filelocation = "books/frankenstein.txt"
+    file_contents = getFileContent(filelocation)
 
     print(strCount(file_contents))
 
